@@ -1,0 +1,25 @@
+
+body {
+  
+   background-color: pink;
+}
+p{
+    font-size: 50px
+}
+
+.btn-grid{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+    gap: 15px;
+    margin:30px 0;
+   
+}
+
+.correct{ 
+background:pink;
+
+}
+.wrong{  
+    background: crimson;
+}
+
